@@ -12,11 +12,18 @@ st.set_page_config(page_title="AI Material & House Planner", page_icon="🏡", l
 # -------------------------
 # Replace these with your real Groq keys (placeholders)
 # -------------------------
+# -------------------------
+# Load .env Keys
+# -------------------------
+from dotenv import load_dotenv
+load_dotenv()
+
 GROQ_KEYS = [
-    "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",  # primary
-    "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",  # fallback 1
-    "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",  # fallback 2
+    os.getenv("GROQ_KEY_1"),
+    os.getenv("GROQ_KEY_2"),
+    os.getenv("GROQ_KEY_3"),
 ]
+
 
 # -------------------------
 # CSS (high contrast chat bubbles)
