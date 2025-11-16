@@ -3,6 +3,8 @@ OpenAI × NxtWave Buildathon 2025 Project
 A conversational AI platform that helps users plan their house layout and material selection using a step-by-step, expert-guided process.
 The system uses multi-model failover (OpenAI → Groq → Gemini) to deliver fast, reliable responses with zero downtime.
 
+Deployed App: https://buildathon-1-1wjj.onrender.com/
+
 Authors 
 
 M Mohammed Salman
