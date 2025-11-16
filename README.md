@@ -4,6 +4,7 @@ A conversational AI platform that helps users plan their house layout and materi
 The system uses multi-model failover (OpenAI → Groq → Gemini) to deliver fast, reliable responses with zero downtime.
 
 Authors 
+
 M Mohammed Salman
 Btech AIDS 4th Year 
 B.S.Abdur Rahman Crescent Institute of Science and Technology
